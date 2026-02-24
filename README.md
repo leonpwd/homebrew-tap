@@ -1,23 +1,20 @@
-# homebrew-aegis-unvault
+# homebrew-tap
 
-Ce dépôt est un tap Homebrew pour installer aegis-unvault.
+Repo for managing tap scripts of various projects
 
 ## Installation
 
 Ajoutez ce tap à Homebrew :
 
 ```sh
-brew tap leonpwd/aegis-unvault
+brew tap leonpwd/tap
 ```
 
-Puis installez le paquet :
+Then install any project :
 
 ```sh
-brew install aegis-unvault
+brew install [project]
 ```
 
-## À propos
-
-Ce tap fournit la formule `aegis-unvault` pour une installation facile via Homebrew.
-
-Pour toute question ou contribution, ouvrez une issue ou une pull request sur ce dépôt.
+Available taps : 
+- aegis-unvault : tool to decrypt a 2fa aegis vault without the app
